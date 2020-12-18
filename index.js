@@ -53,7 +53,7 @@ class Action {
         if (!this.nugetKey) {
             console.log("##[warning]😢 NUGET_KEY not given")
             return
-        } else if(!verisonMatch) {
+        } else if(!versionMatch) {
             console.log("##[warning]😢 VERSION does not follow regex (v1.0.0)")
             return
         }
